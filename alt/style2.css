@@ -1,0 +1,64 @@
+body{
+    background-image: url(backgounganim2.gif);
+    background-size: 1920px 1280px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.prevpage{
+	text-align: center;	
+    padding: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #FF0000;        
+    height: auto;
+    width: 163px;
+    background: #004D0E;
+    border: 5px solid #FF0000;
+    border-radius: 8px;
+    }
+
+    .prevpage:hover{
+    background: #018A1A;
+    border: 5px solid #FF840B;
+    color: #FFD200;  
+    }
+    .container{
+    	margin-top:20px ; 
+    	height: 700px;
+    	width: auto;
+/*    	border: 5px solid #78B6DE;*/
+    }
+    .imgname{
+        margin-top:24px;    	
+    	margin-left:500px; 
+    	margin-right:500px;
+    	height: 50px;
+    	width: auto;
+/*    	border: 5px solid #DDFEDB;*/
+        border-radius: 13px;
+        font-weight: bold;
+        color: #2AFF00;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    }
+
+.image {
+    height: 460px;
+    padding: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    margin-top: 34px;
+    margin-left: 500px;
+    margin-right: 500px;
+/*    border: 8px solid #ADBCEF;*/
+    border-radius: 18px;
+}
+#ImageBox{
+/*    margin-top: 30px; */
+    border: 3px solid #84899E;
+    border-radius: 8px;
+}

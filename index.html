@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    <title>Message Board</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>MESSAGE BOARD</h1>
+        <div  class="input nick">
+            <div class="validate">
+                <div id="img1" class="val"></div>
+            </div>
+            <label>Enter Username</label>
+            <input type="text" onblur="validateNick()" id="inpunNick" class="nickname" autocomplete="on" placeholder="Username: minimum 4 symbols">
+        </div>
+        <div class=" input email">
+            <label>Enter email</label>
+            <div class="validate">
+                <div class="val" id="img2"></div>
+            </div>
+            <input id="inputEmail" type="email" onblur="validateEmail()" autocomplete="on" placeholder="E-mail" name="Enter email">
+        </div>
+        <div class=" input message">
+            <label>Enter your messege</label>
+            <div class="validate">
+                <div id="img3" class="val"></div>
+            </div>
+            <textarea id="inputText" onblur="validateArea()" placeholder="Text: minimum 30 symbols"></textarea>
+        </div>
+        <div class=" input submit">
+            <input class="btn1" type="button" onclick="sendForm()" value="Send">
+        </div>
+    </div>
+    <div class="pages">
+        <a href="index2.html"><div class="nextpage">NEXT PAGE
+        </div></a>
+        <a href="alt/index.html"><div class="altpage">
+        </div></a>
+    </div>
+    <div id ="usermessage" class="usermess"></div>
+    <div id ="blueDiv" class ="imgdiv"><p class="inpblock">
+    	<input id ="num" type="numbers" name="numbers">
+    	 <input class="btn2" type="button" onclick="showFace()" value="SHOW"></p>
+    	 <div id="globalDiv" class ="GLdiv">  	 	
+    	 </div>
+         
+    </div>
+    
+</body>
+
+</html>
